@@ -693,4 +693,15 @@ WHERE cmetadata->>'file_id' = 'your-file-id';
 
 ---
 
-**Last Updated:** December 2025
+# Credits / Acknowledgements
+- [LibreChat](https://github.com/danny-avila/LibreChat) – Local chat framework
+- [RAG API](https://github.com/danny-avila/rag_api) – Retrieval-Augmented Generation backend
+- [Meilisearch](https://github.com/meilisearch/meilisearch) – Conversation search engine
+- [Ollama](https://github.com/ollama/ollama) – Local LLM embeddings/models
+
+# Environment / Prerequisites
+- [PostgreSQL](https://www.postgresql.org/)
+- [MongoDB](https://github.com/mongodb/mongo)
+- [Python](https://www.python.org/) 3.11+
+- [NodeJS](https://github.com/nodejs/node) 22+
+- [CachyOS](https://cachyos.org) - Arch Linux derivative
