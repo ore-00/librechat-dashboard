@@ -373,18 +373,18 @@ class ServiceCard(QFrame):
     
     def start_process(self):
         if self.name == 'librechat':
-            librechat_path = Path.home() / 'LibreChat'
+            librechat_path = Path.home() / '.local' / 'src' / 'LibreChat'
             if not librechat_path.exists():
-                QMessageBox.warning(self, "Error", "LibreChat not found at ~/LibreChat")
+                QMessageBox.warning(self, "Error", "LibreChat not found at ~/.local/src/LibreChat")
                 return
             command = ['bash', '-c', 
                       f'source ~/.nvm/nvm.sh && cd {librechat_path} && npm run backend']
             self.process_thread = ProcessRunner(command)
             
         elif self.name == 'rag_api':
-            rag_path = Path.home() / 'rag_api'
+            rag_path = Path.home() / '.local' / 'src' / 'rag_api'
             if not rag_path.exists():
-                QMessageBox.warning(self, "Error", "RAG API not found at ~/rag_api")
+                QMessageBox.warning(self, "Error", "RAG API not found at ~/.local/src/rag_api")
                 return
             command = ['bash', '-c',
                       f'cd {rag_path} && source venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000']
