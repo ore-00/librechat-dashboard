@@ -1177,7 +1177,8 @@ class LibreChatDashboard(QMainWindow):
 <h3>Tabs</h3>
 <p><b>Dashboard:</b> Overview of all services and system resources<br>
 <b>Monitoring:</b> Real-time CPU and RAM usage graphs<br>
-<b>Logs:</b> Consolidated log output from services</p>
+<b>Logs:</b> Consolidated log output from services<br>
+<b>RAG DB Management:</b> pgAdmin4 PostgreSQL Browser for RAG Database</p>
 
 <h3>Quick Actions</h3>
 <p><b>Start Systemd Services:</b> Start database and AI services<br>
