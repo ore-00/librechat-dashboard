@@ -6,7 +6,7 @@
 
 A comprehensive setup guide and dashboard application for running LibreChat locally on CachyOS (Arch Linux) with Ollama integration, Meilisearch for conversation search, and RAG (Retrieval-Augmented Generation) for persistent document knowledge.
 
-> ⚠️ **Note:** This is a comprehensive setup guide requiring manual configuration of multiple services. Plan for 1-2 hours for a fresh installation. The dashboard simplifies daily management after initial setup.
+> ⚠️ **Note:** This is a guide requiring manual configuration of multiple services. Plan for 1-2 hours for a fresh installation. The dashboard simplifies daily management after initial setup.
 
 **Includes a modern monitoring dashboard with real-time graphs and service management!**
 
