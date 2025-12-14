@@ -924,7 +924,7 @@ class LibreChatDashboard(QMainWindow):
 <li>Integrated log viewer</li>
 </ul>
 
-<p><b>GitHub:</b> <a href="https://github.com/XclusivVv/librechat-setup-guide">github.com/XclusivVv/librechat-setup-guide</a></p>
+<p><b>GitHub:</b> <a href="https://github.com/XclusivVv/librechat-dashboard">github.com/XclusivVv/librechat-dashboard</a></p>
         """
         msg = QMessageBox(self)
         msg.setWindowTitle("About")
